@@ -1,0 +1,13 @@
+//Find the sum of the first and the last digit of a number
+
+int main(){
+int t,n; cin t;
+for (int i=0; i<t ;i++){
+cin>>n;
+int ld= n%10;
+no_of_digits= (int)log10(n);
+int fd= n/pow(10,no_of_digits);
+cout<< fd+ld<<endl;
+
+}
+}
